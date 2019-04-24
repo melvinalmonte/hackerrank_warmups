@@ -4,6 +4,3 @@ def staircase(n):
         print(" " * counter, "#" * i)
         counter = counter - 1
     print("#" * n)
-
-if __name__ == '__main__':
-    staircase(6)
